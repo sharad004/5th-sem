@@ -1,0 +1,30 @@
+<!-- Design a HTML page having your personal info with suitable formatting HTML element. -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab-3</title>
+	</head>
+	<body>
+		<h1 style="text-align: center">Hello ! I am Sharad Lawot</h1>
+		<h3 style="text-align: center">Student</h3>
+		<h4><u>Introduction</u></h4>
+		<p>
+			My name is Sharad Lawot. I live in
+			<strong>Tokha, Kathmandu</strong><br />
+			Currently I study BSc. CSIT in
+			<a href="https://nccs.edu.np/college"
+				>National College of Computer Studies </a
+			><br />
+		</p>
+		<h4><u>Skills and Languages</u></h4>
+		<ol type="1">
+			<li>Web Development</li>
+			<li>Java</li>
+			<li>C/C++</li>
+		</ol>
+		<h4><u>Hobbies</u></h4>
+		<ul type="circle">
+			<li>Playing Games</li>
+		</ul>
+	</body>
+</html>
