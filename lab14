@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 14</title>
+</head>
+<body>
+    <button onclick="alertButton();">Alert</button>
+    <button onclick="confirmButton();">Confirm</button>
+    <button onclick="promptButton();">Prompt</button>
+    <button onclick="nameDisplay();">Display full name</button>
+    <div class="Name"></div>
+    <script>
+        function alertButton(){
+            alert("This is alert function");
+        }
+        function confirmButton(){
+            confirm("This is confirm function");
+        }
+        function promptButton(){
+            prompt("This is prompt function");
+        }
+        function nameDisplay(){
+            let fName='Sharad';
+            let lName=' Lawot';
+            let fullName=fName+lName;
+            document.querySelector('.Name').innerText=`${fullName}`;
+        }
+    </script>
+</body>
+</html>
