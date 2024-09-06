@@ -1,0 +1,40 @@
+<!-- Create your own personal page with external links.
+(page must contain image/text/external links,list,table and simple form) -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 6</title>
+	</head>
+
+	<body style="background-color: lightblue; padding: 20px 60px 0px 60px">
+		<h1>MY PERSONAL PAGE</h1>
+		<img
+			src="https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/446651250_1826152137875951_8504168048363098538_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=if5ASmxP_lQQ7kNvgEFep-2&_nc_ht=scontent.fmey1-1.fna&_nc_gid=AYPVKk3ksOH3cPST3bLE3LB&oh=00_AYASAyqo3ZkOPT8Rag1GlYTF_wBPtaackz2Ek8z_6mpKqA&oe=66DD9FE3"
+			style="height: 100px; border-radius: 50px" />
+		<p>Sharad Lawot</p>
+		<p>Faculty: BSc. CSIT</p>
+		<p>Semester: 5<sup>th</sup> Semester</p>
+		<p>Roll no.: 18</p>
+		<p>
+			Address:
+			<a href="https://en.wikipedia.org/wiki/Kathmandu" target="_blank"
+				>Kathmandu</a
+			>
+		</p>
+		<p><b>Programming languages known</b></p>
+		<table border="1">
+			<tr>
+				<td>S.N.</td>
+				<td>Programming Language</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Java</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>C/C++</td>
+			</tr>
+		</table>
+	</body>
+</html>
