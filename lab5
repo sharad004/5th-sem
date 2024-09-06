@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lab-5</title>
+		<style>
+			table {
+				margin: auto;
+				border-collapse: collapse;
+			}
+			td,
+			th {
+				border: 1px solid black;
+				padding: 10px;
+				text-align: center;
+			}
+			th {
+				background-color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 style="color: black; text-align: center">Table of Friends</h1>
+		<table>
+			<tr>
+				<th>SN</th>
+				<th>Name of Friend</th>
+			</tr>
+			<tr>
+				<th>1</th>
+				<th>Rajib Duwal</th>
+			</tr>
+			<tr>
+				<th>2</th>
+				<th>Mandish Vaidya</th>
+			</tr>
+			<tr>
+				<th>3</th>
+				<th>Utsarga Manandhar</th>
+			</tr>
+			<tr>
+				<th>4</th>
+				<th>Amardeep Limbu</th>
+			</tr>
+		</table>
+	</body>
+</html>
