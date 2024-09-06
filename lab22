@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE university[
+<!ELEMENT university (student+)>
+<!ELEMENT student (firstname, lastname, age)>
+<!ATTLIST student
+          id CDATA #REQUIRED>
+<!ELEMENT  firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT age EMPTY>
+<!ATTLIST age
+          year CDATA #REQUIRED
+          month CDATA #IMPLIED>
+
+]>
+<university>
+    <student id="001">
+        <firstname>Sharad </firstname>
+        <lastname>Lawot</lastname>
+        <age year="2000" month="January"/>
+    </student>
+    <student id="002">
+        <firstname>David</firstname>
+        <lastname>Maharjan</lastname>
+        <age year="1999" month="March"/>
+    </student>
+   
+</university>
